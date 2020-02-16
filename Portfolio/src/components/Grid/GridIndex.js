@@ -9,8 +9,8 @@ function GridIndex () {
     return (
         <Container>
             <Row>
-                <Col>1 of 2</Col>
-                <Col>2 of 2</Col>
+                <Col>Stuff and lots of it</Col>
+                <Col>Other stuff in this awesome column</Col>
             </Row>
             <Row>
                 <Col>1 of 3</Col>

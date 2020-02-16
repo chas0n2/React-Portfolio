@@ -10,12 +10,14 @@ import NavIndex from './components/Navbar/NavIndex';
 function App() {
   return (
     <div className="App">
+      <NavIndex />
       <header className="App-header">
-        <NavIndex />
+        
+        
       </header>
+       
 
         <Footer />
-      
     </div>
   );
 }
