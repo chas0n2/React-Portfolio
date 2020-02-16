@@ -1,29 +1,23 @@
 import React from 'react';
 import './nav.css';
+import Navbar from 'react-bootstrap/Navbar'
+import Container from 'react-bootstrap/Container';
+
+
 
 function NavIndex () {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
-      <div className="container">
-        <a className="navbar-brand js-scroll-trigger" href="#page-top">Chason Law</a>
-        <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarResponsive">
-          <ul className="navbar-nav ml-auto my-2 my-lg-0">
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <Navbar className="nav" fixed="top" expand="lg" variant="dark" bg="dark">
+      <Container>
+      <Navbar.Brand href="#">Chason Law</Navbar.Brand>
+      </Container>
+      <Nav>
+      <Nav.Link href="#deets">More deets</Nav.Link>
+      <Nav.Link eventKey={2} href="#memes">
+        Dank memes
+      </Nav.Link>
+      </Nav>
+      </Navbar>
     )
 };
 

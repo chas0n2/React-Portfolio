@@ -1,6 +1,8 @@
 #foot {
     background-color: #aaa9ad;
     color: white;
-    
-    
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    align-items: center;
 }

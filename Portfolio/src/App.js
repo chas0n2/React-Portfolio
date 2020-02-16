@@ -6,18 +6,16 @@ import './App.css';
 import Footer from './components/Footer/FooterIndex';
 import NavIndex from './components/Navbar/NavIndex';
 
-
 function App() {
   return (
     <div className="App">
-      <NavIndex />
       <header className="App-header">
-        
-        
-      </header>
-       
+      <NavIndex />
 
-        <Footer />
+      </header>
+      <Footer />
+        
+      
     </div>
   );
 }
